@@ -1,0 +1,230 @@
+Converting GML script : ${project_dir}\scripts\__boot\__boot.gml
+Converted description : /// @description  __boot() /// @function  __boot
+
+Converting GML script : ${project_dir}\scripts\action2Release\action2Release.gml
+Converted description : /// @description  action2Release(slot)/// @function  action2Release
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\action1Pressed\action1Pressed.gml
+Converted description : /// @description  action1Pressed(slot)/// @function  action1Pressed
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\action2\action2.gml
+Converted description : /// @description  action2(slot)/// @function  action2
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\action6\action6.gml
+Converted description : /// @description  action6(slot)/// @function  action6
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\action5Pressed\action5Pressed.gml
+Converted description : /// @description  action5Pressed(slot)/// @function  action5Pressed
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\action5Release\action5Release.gml
+Converted description : /// @description  action5Release(slot)/// @function  action5Release
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\action5\action5.gml
+Converted description : /// @description  action5(slot)/// @function  action5
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\action6Pressed\action6Pressed.gml
+Converted description : /// @description  action6Pressed(slot)/// @function  action6Pressed
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\action6Release\action6Release.gml
+Converted description : /// @description  action6Release(slot)/// @function  action6Release
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\action7\action7.gml
+Converted description : /// @description  action7(slot)/// @function  action7
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\action7Pressed\action7Pressed.gml
+Converted description : /// @description  action7Pressed(slot)/// @function  action7Pressed
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\action7Release\action7Release.gml
+Converted description : /// @description  action7Release(slot)/// @function  action7Release
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\action8\action8.gml
+Converted description : /// @description  action8(slot)/// @function  action8
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\action8Release\action8Release.gml
+Converted description : /// @description  action8Release(slot)/// @function  action8Release
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\actionSelect\actionSelect.gml
+Converted description : /// @description  actionSelect(slot)/// @function  actionSelect
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\actionSelectPressed\actionSelectPressed.gml
+Converted description : /// @description  actionSelectPressed(slot)/// @function  actionSelectPressed
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\action8Pressed\action8Pressed.gml
+Converted description : /// @description  action8Pressed(slot)/// @function  action8Pressed
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\actionSelectRelease\actionSelectRelease.gml
+Converted description : /// @description  actionSelectRelease(slot)/// @function  actionSelectRelease
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\actionStart\actionStart.gml
+Converted description : /// @description  actionStart(slot)/// @function  actionStart
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\gamepadButtonName\gamepadButtonName.gml
+Converted description : /// @description  gamepadButtonName(button)/// @function  gamepadButtonName
+/// @param button
+
+Converting GML script : ${project_dir}\scripts\gamepadCheck\gamepadCheck.gml
+Converted description : /// @description  gamepadCheck(slot)/// @function  gamepadCheck
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\actionStartPressed\actionStartPressed.gml
+Converted description : /// @description  actionStartPressed(slot)/// @function  actionStartPressed
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\action2Pressed\action2Pressed.gml
+Converted description : /// @description  action2Pressed(slot)/// @function  action2Pressed
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\gamepadCheckReleased\gamepadCheckReleased.gml
+Converted description : /// @description  gamepadCheckReleased(slot)/// @function  gamepadCheckReleased
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\gamepadCheckPressed\gamepadCheckPressed.gml
+Converted description : /// @description  gamepadCheckPressed(slot)/// @function  gamepadCheckPressed
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\keyCodeName\keyCodeName.gml
+Converted description : /// @description  keyCodeName(code)/// @function  keyCodeName
+/// @param code
+
+Converting GML script : ${project_dir}\scripts\keyPressed\keyPressed.gml
+Converted description : /// @description  keyPressed()/// @function  keyPressed
+
+Converting GML script : ${project_dir}\scripts\action4Pressed\action4Pressed.gml
+Converted description : /// @description  action4Pressed(slot)/// @function  action4Pressed
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\action4Release\action4Release.gml
+Converted description : /// @description  action4Release(slot)/// @function  action4Release
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\action3Release\action3Release.gml
+Converted description : /// @description  action3Release(slot)/// @function  action3Release
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\action3\action3.gml
+Converted description : /// @description  action3(slot)/// @function  action3
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\action1Release\action1Release.gml
+Converted description : /// @description  action1Release(slot)/// @function  action1Release
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\movementDownPressed\movementDownPressed.gml
+Converted description : /// @description  movementDownPressed(slot)/// @function  movementDownPressed
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\movementDown\movementDown.gml
+Converted description : /// @description  movementDown(slot)/// @function  movementDown
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\movementLeft\movementLeft.gml
+Converted description : /// @description  movementLeft(slot)/// @function  movementLeft
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\actionStartRelease\actionStartRelease.gml
+Converted description : /// @description  actionStartRelease(slot)/// @function  actionStartRelease
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\movementDownRelease\movementDownRelease.gml
+Converted description : /// @description  movementDownRelease(slot)/// @function  movementDownRelease
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\movementUp\movementUp.gml
+Converted description : /// @description  movementUp(slot)/// @function  movementUp
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\movementRightPressed\movementRightPressed.gml
+Converted description : /// @description  movementRightPressed(slot)/// @function  movementRightPressed
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\action4\action4.gml
+Converted description : /// @description  action4(slot)/// @function  action4
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\controlsStateCheck\controlsStateCheck.gml
+Converted description : /// @description  controlsStateCheck(slot, state, key, button)/// @function  controlsStateCheck
+/// @param slot
+/// @param  state
+/// @param  key
+/// @param  button
+
+Converting GML script : ${project_dir}\scripts\movementUpPressed\movementUpPressed.gml
+Converted description : /// @description  movementUpPressed(slot)/// @function  movementUpPressed
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\controlsFile\controlsFile.gml
+Converted description : /// @description  controlsFile()/// @function  controlsFile
+
+Converting GML script : ${project_dir}\scripts\movementRight\movementRight.gml
+Converted description : /// @description  movementRight(slot)/// @function  movementRight
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\controlsInit\controlsInit.gml
+Converted description : /// @description  controlsInit()/// @function  controlsInit
+
+Converting GML script : ${project_dir}\scripts\approach\approach.gml
+Converted description : /// @description  approach(start, end, step)/// @function  approach
+/// @param start
+/// @param  end
+/// @param  step
+
+Converting GML script : ${project_dir}\scripts\action1\action1.gml
+Converted description : /// @description  action1(slot)/// @function  action1
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\action3Pressed\action3Pressed.gml
+Converted description : /// @description  action3Pressed(slot)/// @function  action3Pressed
+/// @param slot
+
+Converting GML script : ${project_dir}\objects\obj_testPlayer\Step_0.gml
+Converted description : /// @description  Move
+
+Converting GML script : ${project_dir}\rooms\__init\RoomCreationCode.gml
+Converted description : /// @description  Initialize controls and don't come back
+
+Converting GML script : ${project_dir}\scripts\controlsSave\controlsSave.gml
+Converted description : /// @description  controlsSave()/// @function  controlsSave
+
+Converting GML script : ${project_dir}\rooms\__test\RoomCreationCode.gml
+Converted description : /// @description  Create a player!
+
+Converting GML script : ${project_dir}\scripts\movementLeftPressed\movementLeftPressed.gml
+Converted description : /// @description  movementLeftPressed(slot)/// @function  movementLeftPressed
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\movementLeftRelease\movementLeftRelease.gml
+Converted description : /// @description  movementLeftRelease(slot)/// @function  movementLeftRelease
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\movementRightRelease\movementRightRelease.gml
+Converted description : /// @description  movementRightRelease(slot)/// @function  movementRightRelease
+/// @param slot
+
+Converting GML script : ${project_dir}\scripts\movementUpRelease\movementUpRelease.gml
+Converted description : /// @description  movementUpRelease(slot)/// @function  movementUpRelease
+/// @param slot
+
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2.
+game speed set to 60
+added compatibility script instance/instance_create.gml
+added compatibility script object/object_get_depth.gml
+added compatibility script __global_object_depths.gml
