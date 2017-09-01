@@ -21,7 +21,7 @@ Use it on your project, game jam or whatever! No need to credit (though apprecia
 
 ## Requirements
 
-There are two project in this repository, one for **GameMaker: Studio** (`yx-control-scripts.gmx`) and another for **GameMaker Studio 2** (`yx-control-scripts`), so you'll need to have one of these editors installed in your machine.
+There are two projects in this repository, one for **GameMaker: Studio** (`yx-control-scripts.gmx`) and another for **GameMaker Studio 2** (`yx-control-scripts`), so you'll need to have one of these editors installed in your machine.
 
 -----
 
