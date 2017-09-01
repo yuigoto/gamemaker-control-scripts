@@ -1,8 +1,21 @@
 /// @description  Move
 
 // Check H/V movement
-var move_h = movementRight() - movementLeft();
-var move_v = movementDown() - movementUp();
+var move_h, move_v;
+
+// Horizontal movement
+if (analogLeftHDown()) {
+    move_h  = (analogLeftH() != 0) ? sign(analogLeftH()) : 0;
+} else {
+    move_h  = movementRight() - movementLeft();
+}
+
+// Vertical movement
+if (analogLeftVDown()) {
+    move_v  = (analogLeftV() != 0) ? sign(analogLeftV()) : 0;
+} else {
+    move_v  = movementDown() - movementUp();
+}
 
 // Define H/V speed
 if (move_h < 0) {
@@ -46,5 +59,3 @@ var new_y = lengthdir_y(distn, angle);
 // Set new X
 x = clamp(x + new_x, 0 + (sprite_width / 2), room_width - (sprite_width / 2));
 y = clamp(y + new_y, 0 + (sprite_height / 2), room_height - (sprite_height / 2));
-
-

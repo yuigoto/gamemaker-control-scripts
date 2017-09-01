@@ -10,4 +10,3 @@ a_factor = .5;
 
 // Deceleration factor
 d_factor = .5;
-

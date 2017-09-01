@@ -62,8 +62,29 @@ d_factor = .5;
             <string>/// Move
 
 // Check H/V movement
-var move_h = movementRight() - movementLeft();
-var move_v = movementDown() - movementUp();
+var move_h, move_v;
+
+// Horizontal movement
+if (analogLeftHDown()) {
+    if (analogLeftH() != 0) { 
+        move_h  = sign(analogLeftH());
+    } else {
+        move_h  = 0;
+    }
+} else {
+    move_h  = movementRight() - movementLeft();
+}
+
+// Vertical movement
+if (analogLeftVDown()) {
+    if (analogLeftV() != 0) { 
+        move_v  = sign(analogLeftV());
+    } else {
+        move_v  = 0;
+    }
+} else {
+    move_v  = movementDown() - movementUp();
+}
 
 // Define H/V speed
 if (move_h &lt; 0) {

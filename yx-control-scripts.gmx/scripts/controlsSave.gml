@@ -1,9 +1,10 @@
 /// controlsSave()
 
 /**
- * Creates an INI to store keyboard and gamepad control bindings, if one doesn't
- * exist for the project.
+ * Saves the current control bindings stored in globals.
  */
+
+// Variables
 var section, controls_data;
 
 // Opening file
@@ -177,8 +178,6 @@ for (var i = 1; i <= 4; i++) {
             break;
     }
 }
-
-
 
 // CLOSE
 // ----------------------------------------------------------------------

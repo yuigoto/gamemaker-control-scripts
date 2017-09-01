@@ -1,5 +1,5 @@
 {
-    "id": "512bd972-947e-4016-a1b4-8d67ad2e3c5f",
+    "id": "dd2612fd-f82e-4042-96af-8b4b35bed465",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "gamepadButtonName",

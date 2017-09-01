@@ -31,10 +31,18 @@
     },
     "resources": [
         {
-            "Key": "0139ea8c-d6fb-43de-8151-b974e4d32af9",
+            "Key": "0148b304-4f83-4e78-8d35-a1353a38d940",
             "Value": {
-                "id": "23b72759-c4f3-4cf3-9996-8167a5a7c051",
-                "resourcePath": "scripts\\movementRight\\movementRight.yy",
+                "id": "6cc6b99f-20ef-40ca-9deb-62dc00d622da",
+                "resourcePath": "scripts\\action8\\action8.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "02c3ae1d-475f-44fc-8b94-6f36ede01eba",
+            "Value": {
+                "id": "431c5bda-ef9c-46d0-88f5-ce8e3e4b3968",
+                "resourcePath": "scripts\\action7Release\\action7Release.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -47,11 +55,11 @@
             }
         },
         {
-            "Key": "055780c8-8b03-488f-9ec3-b825822cfe81",
+            "Key": "03d04485-ee98-420d-8709-7138f1fa54d6",
             "Value": {
-                "id": "d0645f24-3dae-47f0-9884-3c7b5d4a1d8f",
-                "resourcePath": "views\\055780c8-8b03-488f-9ec3-b825822cfe81.yy",
-                "resourceType": "GMFolder"
+                "id": "3bf49815-0819-40d1-bcbc-4418be53d891",
+                "resourcePath": "scripts\\controlsAnalogObjectInit\\controlsAnalogObjectInit.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -63,6 +71,38 @@
             }
         },
         {
+            "Key": "07acb509-a8ad-4799-8927-820976e61988",
+            "Value": {
+                "id": "851b2c94-62a7-40c4-9136-9436668e90af",
+                "resourcePath": "scripts\\analogLeftHRelease\\analogLeftHRelease.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0a788897-bed4-4a0e-bdb8-398f76e2140d",
+            "Value": {
+                "id": "87cbb1a4-acdd-45b8-b326-aabf525527c4",
+                "resourcePath": "scripts\\gamepadCheck\\gamepadCheck.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0c582543-93d4-484e-a53a-a6765b5a0633",
+            "Value": {
+                "id": "5f29cb2b-a2ce-4929-a36c-7aafed420019",
+                "resourcePath": "scripts\\movementDownPressed\\movementDownPressed.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "0c836369-6eb4-4174-98d3-9bc45fa2343a",
+            "Value": {
+                "id": "d268435d-415e-4256-8f90-df81de68ea76",
+                "resourcePath": "scripts\\controlsAnalogObjectStep\\controlsAnalogObjectStep.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0d906866-0fd2-493d-84bf-9c26ff5cfbe6",
             "Value": {
                 "id": "f350e4a6-e8a0-4df5-b1e4-086271a36c86",
@@ -71,34 +111,26 @@
             }
         },
         {
-            "Key": "172cbc18-7ca2-4dae-b845-518c13659504",
+            "Key": "0f0d8343-35d1-446e-be81-7f3a85a5723f",
             "Value": {
-                "id": "0da9a2d8-e37b-4cd9-a5c1-75e529dbd709",
-                "resourcePath": "scripts\\action7Release\\action7Release.yy",
+                "id": "2d7f7625-1606-4e23-9b16-03d3cbc299dc",
+                "resourcePath": "scripts\\movementLeftRelease\\movementLeftRelease.yy",
                 "resourceType": "GMScript"
             }
         },
         {
-            "Key": "1893163d-2e0a-4416-bcb4-54e1225a7add",
+            "Key": "1054509d-c88f-46e9-bb4a-2dbcced22543",
             "Value": {
-                "id": "c26431f9-f69c-4651-979b-0621f24ced08",
-                "resourcePath": "scripts\\controlsStateCheck\\controlsStateCheck.yy",
+                "id": "7c46cd81-4f1e-4a8a-8c16-7aac82091423",
+                "resourcePath": "scripts\\controlsWipe\\controlsWipe.yy",
                 "resourceType": "GMScript"
             }
         },
         {
-            "Key": "18e2d4a1-ae53-4fb8-a55e-d2277a75d314",
+            "Key": "198a3305-6a9f-45e4-9d27-32cd8a5c2d81",
             "Value": {
-                "id": "5225fdcc-7245-4cde-b322-8f7c88e26e4d",
-                "resourcePath": "scripts\\action6Pressed\\action6Pressed.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "19215a04-7f1b-4990-b733-c6390427ad9e",
-            "Value": {
-                "id": "449037bb-4575-488f-8cd4-8a74443fdbd9",
-                "resourcePath": "scripts\\action2\\action2.yy",
+                "id": "f267dbda-635d-4ffa-a8ec-60a71f1e97ac",
+                "resourcePath": "scripts\\action2Pressed\\action2Pressed.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -111,50 +143,34 @@
             }
         },
         {
-            "Key": "2113c28e-dcf9-4bf3-9c8e-a059ddb95fb4",
+            "Key": "22e30067-3212-4911-9ecf-750aa6e94f55",
             "Value": {
-                "id": "68d54241-62d1-43b8-9494-88778b231520",
-                "resourcePath": "views\\2113c28e-dcf9-4bf3-9c8e-a059ddb95fb4.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "236be597-4cc9-4452-b043-ca1e481c1639",
-            "Value": {
-                "id": "53609a7e-f608-455a-9826-24bd4b8df619",
-                "resourcePath": "scripts\\actionSelectPressed\\actionSelectPressed.yy",
+                "id": "7f6153cf-8dc2-4e19-85fb-4f499863891e",
+                "resourcePath": "scripts\\analogRightH\\analogRightH.yy",
                 "resourceType": "GMScript"
             }
         },
         {
-            "Key": "280bac32-b6c2-40c8-8c01-f1e28c117a05",
+            "Key": "273f274e-1359-417a-84aa-713377a2532f",
             "Value": {
-                "id": "05900418-ca69-4a1f-9e14-80a6bb77fb58",
-                "resourcePath": "scripts\\movementLeftRelease\\movementLeftRelease.yy",
+                "id": "b4e390c6-de30-43aa-b12b-eb846b6f46a0",
+                "resourcePath": "scripts\\movementUpRelease\\movementUpRelease.yy",
                 "resourceType": "GMScript"
             }
         },
         {
-            "Key": "28cebb69-d8ae-4b37-8e29-68f6f933c0b3",
+            "Key": "28c11b79-a126-419d-a509-e0d3c3a1b390",
             "Value": {
-                "id": "9339e0ad-bdc6-4355-873c-a88332095481",
-                "resourcePath": "scripts\\actionStart\\actionStart.yy",
+                "id": "8ff2b0d8-f4fa-44f6-9bd8-cbd33ebfc376",
+                "resourcePath": "scripts\\analogLeftH\\analogLeftH.yy",
                 "resourceType": "GMScript"
             }
         },
         {
-            "Key": "2b20ba69-3f5d-4360-9898-07763a947e12",
+            "Key": "3434446c-8ab2-4346-b086-25ebadbc9cab",
             "Value": {
-                "id": "16e06ca5-859c-4a53-a0ac-c54f77e468c0",
-                "resourcePath": "scripts\\gamepadCheckPressed\\gamepadCheckPressed.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "2d5551f3-576e-4b09-be6e-812cdcc99c97",
-            "Value": {
-                "id": "a80b057e-439d-48f3-90c3-a2d1b4e71d19",
-                "resourcePath": "scripts\\action7Pressed\\action7Pressed.yy",
+                "id": "18c46197-c6a3-4a9d-adac-d2548379de55",
+                "resourcePath": "scripts\\action2\\action2.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -167,26 +183,26 @@
             }
         },
         {
-            "Key": "360dd66a-ad08-477e-9dc7-e3d440daf476",
+            "Key": "3a7626ae-d6a9-4e33-9d25-5411f0246765",
             "Value": {
-                "id": "6ae8a798-8962-4add-bf9a-e53778efb05c",
-                "resourcePath": "scripts\\action8Pressed\\action8Pressed.yy",
+                "id": "aa49e239-9035-43c7-a55b-fd35661199b2",
+                "resourcePath": "scripts\\analogRightVDown\\analogRightVDown.yy",
                 "resourceType": "GMScript"
             }
         },
         {
-            "Key": "36fef280-4b66-4648-bbc7-c73e1c78c7d8",
+            "Key": "3badf023-8044-49b4-8a55-ca065e2a18a6",
             "Value": {
-                "id": "981a574a-460d-44bb-99ef-994f4bafaa78",
-                "resourcePath": "scripts\\controlsInit\\controlsInit.yy",
-                "resourceType": "GMScript"
+                "id": "c79df317-ed9c-4d42-9234-d2e517f9ec73",
+                "resourcePath": "views\\3badf023-8044-49b4-8a55-ca065e2a18a6.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
-            "Key": "403d70ed-973e-4660-9a0a-c1ceecfb5402",
+            "Key": "425f8aa3-2e96-4c45-b6d4-dc8e85bcf9f8",
             "Value": {
-                "id": "a4178487-13cf-43e2-a596-98c3a7981a68",
-                "resourcePath": "scripts\\actionSelect\\actionSelect.yy",
+                "id": "d91b1d52-4d39-4413-acb9-f45d79e3b0d9",
+                "resourcePath": "scripts\\action3Pressed\\action3Pressed.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -199,11 +215,43 @@
             }
         },
         {
+            "Key": "4602174c-7ab0-417e-a4a1-05efca15e073",
+            "Value": {
+                "id": "b4321e2d-1064-48bd-bdc5-d2d0b4484dd9",
+                "resourcePath": "scripts\\action5\\action5.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "47851df2-2d96-4305-bb22-4ab30114dff5",
+            "Value": {
+                "id": "278c029d-b526-43cf-b492-dd5f4169d16f",
+                "resourcePath": "scripts\\movementUpPressed\\movementUpPressed.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4ad88916-d733-4e61-adcf-459e6e729098",
             "Value": {
                 "id": "f6e11f3e-9741-486c-b1ee-d76495ae4bc7",
                 "resourcePath": "notes\\notes.yy",
                 "resourceType": "GMNotes"
+            }
+        },
+        {
+            "Key": "4b959ac4-298b-46b1-ad81-fb6760c8c018",
+            "Value": {
+                "id": "b6e1703b-7644-446a-a6ee-7fa64716007b",
+                "resourcePath": "scripts\\action8Release\\action8Release.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4c86c2e7-8116-48f0-bde6-870f3530ec06",
+            "Value": {
+                "id": "6d26c47d-619d-4758-8b2e-b9d10f7248df",
+                "resourcePath": "scripts\\action3\\action3.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -215,11 +263,19 @@
             }
         },
         {
-            "Key": "512bd972-947e-4016-a1b4-8d67ad2e3c5f",
+            "Key": "52b1d1ca-892a-420f-afd2-ee8b3325d9d6",
             "Value": {
-                "id": "74f8513d-6703-41ca-b376-9327d9c73ef7",
-                "resourcePath": "scripts\\gamepadButtonName\\gamepadButtonName.yy",
+                "id": "f0908271-631e-48a5-8c34-e1d6e86608bd",
+                "resourcePath": "scripts\\action5Pressed\\action5Pressed.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "54de748f-e661-491b-8ef0-949a63a8fa5f",
+            "Value": {
+                "id": "87fcb730-19d4-4dca-a13e-12fcad3cc99c",
+                "resourcePath": "objects\\obj_controlsAnalog\\obj_controlsAnalog.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -231,67 +287,43 @@
             }
         },
         {
-            "Key": "560f2bcd-fb31-486d-b806-913bc76d3bfa",
+            "Key": "580bc0bd-e934-4095-9812-b0400b08b237",
             "Value": {
-                "id": "47ae290f-ec3f-42bf-b71e-687b0d15feba",
-                "resourcePath": "scripts\\actionStartRelease\\actionStartRelease.yy",
+                "id": "70fbd995-2931-4115-9f84-0d460d5e75eb",
+                "resourcePath": "scripts\\actionSelect\\actionSelect.yy",
                 "resourceType": "GMScript"
             }
         },
         {
-            "Key": "59223a49-9b27-4b73-8015-324e21ef86bd",
+            "Key": "5a71db95-b258-469c-8daa-89bf4e50b447",
             "Value": {
-                "id": "e6d5784a-1aa4-4952-8914-5565eda9071b",
-                "resourcePath": "scripts\\action6\\action6.yy",
+                "id": "6a92cb45-4de1-44ff-adca-7b2357db267c",
+                "resourcePath": "scripts\\action8Pressed\\action8Pressed.yy",
                 "resourceType": "GMScript"
             }
         },
         {
-            "Key": "5970ed0c-fd0e-4e76-a57d-22ea4f8cabad",
+            "Key": "5aef24f9-a939-4ffc-b5ad-a9abe23b5f23",
             "Value": {
-                "id": "dc363800-41ea-4d3a-ba06-cc737668ba5d",
-                "resourcePath": "scripts\\action1\\action1.yy",
+                "id": "2a2284a4-42a0-498e-9782-b73eb4e35e4b",
+                "resourcePath": "scripts\\analogLeftV\\analogLeftV.yy",
                 "resourceType": "GMScript"
             }
         },
         {
-            "Key": "5a010711-4ac1-423b-9be0-3aa5ccb833cb",
+            "Key": "5e458366-b33c-4fa1-9d26-552ef52ec9fb",
             "Value": {
-                "id": "ba65e357-4d4a-4bcb-b8e4-47bac5edbb62",
-                "resourcePath": "scripts\\action6Release\\action6Release.yy",
+                "id": "4aee7658-4471-4fb3-8df8-7df79a54f45e",
+                "resourcePath": "scripts\\controlsSave\\controlsSave.yy",
                 "resourceType": "GMScript"
             }
         },
         {
-            "Key": "5bc20d82-fee6-4d09-a75f-6a7788bd3694",
+            "Key": "5eb5b6a3-b39f-4b0d-ae1d-072e707fe186",
             "Value": {
-                "id": "b4b9cfe3-bdcd-4f8c-b9a7-1ef87e813150",
-                "resourcePath": "scripts\\action5Release\\action5Release.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "5da9a8e2-48f7-4305-bff7-deed140fc0a5",
-            "Value": {
-                "id": "c9e8c88f-3ad1-4e33-8ef5-d29f98566851",
-                "resourcePath": "scripts\\action2Release\\action2Release.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "5ec9d00c-5eda-4f3d-b62f-0427b99d7fd2",
-            "Value": {
-                "id": "7f499440-c2f3-4abf-aea0-b715c968fef2",
-                "resourcePath": "scripts\\action4Release\\action4Release.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "5fd09a12-0d04-49f8-a64e-81d95558efce",
-            "Value": {
-                "id": "09a09a7a-89ab-4e90-97b5-0caac83553f2",
-                "resourcePath": "scripts\\keyPressed\\keyPressed.yy",
-                "resourceType": "GMScript"
+                "id": "efb4193f-ac6f-4100-9950-afbc9f181fb3",
+                "resourcePath": "views\\5eb5b6a3-b39f-4b0d-ae1d-072e707fe186.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -303,58 +335,66 @@
             }
         },
         {
-            "Key": "63450aa3-c884-4fbd-a679-1a75d3ca7f84",
+            "Key": "63a0210c-0d94-49be-bc3b-7621f0788b19",
             "Value": {
-                "id": "c73a043b-09fa-41d3-914d-2131d5746c8e",
-                "resourcePath": "scripts\\movementUpPressed\\movementUpPressed.yy",
+                "id": "4a93bd16-c05a-4da7-aa39-dcd4f897fb4f",
+                "resourcePath": "scripts\\action1Release\\action1Release.yy",
                 "resourceType": "GMScript"
             }
         },
         {
-            "Key": "665ba186-e20e-4b0f-81f8-d6b01c9789d0",
+            "Key": "641e1579-6611-42ca-91c6-66633027f88c",
             "Value": {
-                "id": "cf381790-f2e7-4639-90fd-d21f3059f662",
-                "resourcePath": "scripts\\action7\\action7.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "6d1d555a-8154-4da6-afcc-91ef1b812e1d",
-            "Value": {
-                "id": "4a18fa25-90d9-4695-b1c6-8b69d203a3cc",
-                "resourcePath": "scripts\\actionStartPressed\\actionStartPressed.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "6f284f41-5932-4b05-857b-14971f98cc44",
-            "Value": {
-                "id": "19db8f96-e6ac-47fd-b41c-14353c6db9b3",
-                "resourcePath": "scripts\\action8\\action8.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "70ee1092-5ffe-4cb4-ab56-911c3af1d9f3",
-            "Value": {
-                "id": "5afca8d9-d9fd-4136-b08f-4c678e800789",
-                "resourcePath": "scripts\\action5\\action5.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "711bd316-6bfe-495f-ae8b-5b6e92e49bb1",
-            "Value": {
-                "id": "5d07a73c-0f44-4ba0-8f22-13b60e23a28f",
-                "resourcePath": "views\\711bd316-6bfe-495f-ae8b-5b6e92e49bb1.yy",
+                "id": "6a5e1e2a-3030-4ad0-817a-7ec80b662b40",
+                "resourcePath": "views\\641e1579-6611-42ca-91c6-66633027f88c.yy",
                 "resourceType": "GMFolder"
             }
         },
         {
-            "Key": "733be3fa-f6f7-40a5-809d-06c765d8ab5a",
+            "Key": "65e3868f-1c62-4dcf-bcf0-7322e78214e7",
             "Value": {
-                "id": "32d91a81-9f31-445b-bdcd-3ac6cda92afb",
-                "resourcePath": "scripts\\movementUp\\movementUp.yy",
+                "id": "b8b86099-7d6e-41e1-b366-78793277ccab",
+                "resourcePath": "scripts\\action3Release\\action3Release.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "67345fdb-4889-4b93-a7d6-ffb46dde3962",
+            "Value": {
+                "id": "ede8f30f-1904-424c-9baf-35292e9fcd68",
+                "resourcePath": "scripts\\movementRight\\movementRight.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "67f007b7-6bde-4be1-b132-83e9796d36f6",
+            "Value": {
+                "id": "aa8a6cff-435d-4aae-ae79-d328e651934e",
+                "resourcePath": "scripts\\controlsFile\\controlsFile.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6fe27dfd-862f-4d0f-a052-9581d5b20f27",
+            "Value": {
+                "id": "86ee1d74-4b24-453f-95e2-8b0aa78f0364",
+                "resourcePath": "scripts\\actionStart\\actionStart.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "70a4388d-7a05-4aeb-8042-b879675fa5ae",
+            "Value": {
+                "id": "ca41a343-521c-4cc6-9d85-70a2ea12b494",
+                "resourcePath": "scripts\\analogRightHRelease\\analogRightHRelease.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "725f67d4-e162-480f-8fd1-deefdbd62d61",
+            "Value": {
+                "id": "f7401d4b-29f7-48d6-8e8c-65fc8ae81c82",
+                "resourcePath": "scripts\\gamepadCheckPressed\\gamepadCheckPressed.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -367,10 +407,26 @@
             }
         },
         {
-            "Key": "79d8db07-427a-4fbd-b241-6667ab268e92",
+            "Key": "76402792-5d20-40b6-937d-2c8a9f671e9e",
             "Value": {
-                "id": "faaf4cc0-f301-464b-8405-cfe22c03c6e4",
-                "resourcePath": "scripts\\gamepadCheck\\gamepadCheck.yy",
+                "id": "2d62b1c4-4353-4fb9-970a-ddce05c07aa4",
+                "resourcePath": "scripts\\analogLeftHPressed\\analogLeftHPressed.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "76760f22-a1b1-467f-9254-db494d756c35",
+            "Value": {
+                "id": "e2471490-19b4-4ea8-a652-f826f4dab740",
+                "resourcePath": "scripts\\analogRightVPressed\\analogRightVPressed.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "775c0452-2bfb-4f2e-b963-0ea5b8094254",
+            "Value": {
+                "id": "03d6f500-276d-4d48-be2d-76aeef184d5e",
+                "resourcePath": "scripts\\controlsStateCheck\\controlsStateCheck.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -383,26 +439,18 @@
             }
         },
         {
-            "Key": "8374d030-5cac-46a9-9c36-dba4974f71fd",
+            "Key": "83b76332-3c15-4a72-94af-0e882dc2d6a1",
             "Value": {
-                "id": "752d37a3-e1cc-483e-9962-29eca86337a6",
-                "resourcePath": "scripts\\action3Pressed\\action3Pressed.yy",
+                "id": "f8449012-3074-4cd9-8300-b728c3c484bd",
+                "resourcePath": "scripts\\movementUp\\movementUp.yy",
                 "resourceType": "GMScript"
             }
         },
         {
-            "Key": "87aff5ad-10c7-4685-9ca2-dd56c71e78be",
+            "Key": "875bf092-eef8-4495-8120-2490d2f5895f",
             "Value": {
-                "id": "d0bb9f8c-af87-4f81-8037-5c3a18b02222",
-                "resourcePath": "scripts\\action3\\action3.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "8962619e-c42c-4c68-89a6-b129a29717c7",
-            "Value": {
-                "id": "373497a8-6d94-41be-a3e6-c63f37c42b83",
-                "resourcePath": "scripts\\movementDownPressed\\movementDownPressed.yy",
+                "id": "a2489b34-b7c2-40da-9624-33720c778a65",
+                "resourcePath": "scripts\\movementRightRelease\\movementRightRelease.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -415,11 +463,27 @@
             }
         },
         {
-            "Key": "913156ac-1500-4ee1-982e-ae863dd94eeb",
+            "Key": "8ffcbf80-6ff2-44a2-9099-27f27bf53f69",
             "Value": {
-                "id": "237d4b89-0737-49c4-b755-94a2a6e0f22b",
-                "resourcePath": "views\\913156ac-1500-4ee1-982e-ae863dd94eeb.yy",
-                "resourceType": "GMFolder"
+                "id": "494d2e1e-afff-4806-8bb2-0f3cafa492d0",
+                "resourcePath": "scripts\\action2Release\\action2Release.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "902a3c68-7df7-4a77-bf51-e2ea1c258ef5",
+            "Value": {
+                "id": "6ebe8801-47e4-44bc-88fb-add085d06d79",
+                "resourcePath": "scripts\\actionSelectRelease\\actionSelectRelease.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "91317c91-bdc5-40dc-aee8-d927d957361e",
+            "Value": {
+                "id": "dc51aee7-6873-4c1c-8f46-359f9cf63e1a",
+                "resourcePath": "scripts\\analogRightHDown\\analogRightHDown.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -431,58 +495,50 @@
             }
         },
         {
-            "Key": "943257d8-a4ef-4197-81ab-c378b65c2c83",
+            "Key": "95da9388-793a-4361-9493-2499b3e33acb",
             "Value": {
-                "id": "d5894022-fd18-42d1-8680-164c5ea5c636",
-                "resourcePath": "scripts\\action1Release\\action1Release.yy",
+                "id": "5106d9f6-ced4-478a-8f5c-08333302c6f7",
+                "resourcePath": "scripts\\analogRightVRelease\\analogRightVRelease.yy",
                 "resourceType": "GMScript"
             }
         },
         {
-            "Key": "94892a32-ebc2-48cb-aa11-2812f6ad02a3",
+            "Key": "9b67de86-42b6-4770-8157-5331fd2faf24",
             "Value": {
-                "id": "fcbb696c-295f-441a-81d4-da9777f4a859",
-                "resourcePath": "scripts\\movementLeftPressed\\movementLeftPressed.yy",
+                "id": "1431ac86-7025-41d7-a5db-fd532401979c",
+                "resourcePath": "scripts\\actionSelectPressed\\actionSelectPressed.yy",
                 "resourceType": "GMScript"
             }
         },
         {
-            "Key": "99f6ca63-a7f5-495a-bebc-58e34f536fc1",
+            "Key": "9c482a38-d503-46ca-9a7f-d8d5d3889197",
             "Value": {
-                "id": "cfba7b3c-6652-4989-9a83-68e3d4760493",
-                "resourcePath": "scripts\\movementDownRelease\\movementDownRelease.yy",
+                "id": "333b3101-d2a0-4850-808b-02a131c2c9b1",
+                "resourcePath": "scripts\\analogLeftHDown\\analogLeftHDown.yy",
                 "resourceType": "GMScript"
             }
         },
         {
-            "Key": "9e57a8c9-9998-4fc7-8eb0-380d615a0cb1",
+            "Key": "9f25e600-d3e2-4e14-9f5d-ffd17b1634f8",
             "Value": {
-                "id": "9693dbb7-eb49-4c91-b1d3-d90a169808bf",
-                "resourcePath": "scripts\\action1Pressed\\action1Pressed.yy",
+                "id": "ad1c7627-ac5a-40ac-b500-e86d653f4383",
+                "resourcePath": "scripts\\action6\\action6.yy",
                 "resourceType": "GMScript"
             }
         },
         {
-            "Key": "9f99b45c-446c-4406-8709-123f2e9184bd",
+            "Key": "a1dd0852-9689-467c-9714-b766dc596e78",
             "Value": {
-                "id": "f15c0a0f-2932-4bf9-ac10-ef746057d219",
-                "resourcePath": "scripts\\action5Pressed\\action5Pressed.yy",
+                "id": "7277918b-7389-4618-9a95-8ccbe96a53c3",
+                "resourcePath": "scripts\\movementRightPressed\\movementRightPressed.yy",
                 "resourceType": "GMScript"
             }
         },
         {
-            "Key": "a6ebb137-c2ad-47c2-a1ce-72d52bd7ba65",
+            "Key": "a5807c91-e15a-4ff5-a83e-432683a5f11a",
             "Value": {
-                "id": "a4507f2c-7a4e-4a81-9c31-c3addfd89968",
-                "resourcePath": "scripts\\action4\\action4.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "a76c656e-bd9a-41bf-836d-78bbad2b30ef",
-            "Value": {
-                "id": "9d57a42a-2417-4347-9ba8-65112e516e1f",
-                "resourcePath": "scripts\\movementDown\\movementDown.yy",
+                "id": "8f88b96c-857a-4a91-814c-c0ac2afcd3e1",
+                "resourcePath": "scripts\\keyCodeName\\keyCodeName.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -503,6 +559,14 @@
             }
         },
         {
+            "Key": "aa4f13be-c45c-400f-8f1d-6d40e14b2284",
+            "Value": {
+                "id": "eaf6ba56-bd1c-4b8f-b491-d96d40ba19e6",
+                "resourcePath": "scripts\\action7Pressed\\action7Pressed.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ab4c2c2d-eec5-4bd7-a858-bf25c8dc07ca",
             "Value": {
                 "id": "e6e44fe0-d76d-48c4-9013-572afe115995",
@@ -511,10 +575,10 @@
             }
         },
         {
-            "Key": "ac5d350f-0f74-4608-9cf7-c9347e622f04",
+            "Key": "aba3592d-1be4-4b57-8021-40db1df59762",
             "Value": {
-                "id": "5956c13e-0540-4a98-add6-20defa85b2c8",
-                "resourcePath": "scripts\\movementRightPressed\\movementRightPressed.yy",
+                "id": "7886aa0a-67a4-43df-82d3-c1b81e1ba759",
+                "resourcePath": "scripts\\action5Release\\action5Release.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -535,18 +599,50 @@
             }
         },
         {
-            "Key": "aee54ed9-8443-4fb2-b9b8-9c6b6ac37b6c",
+            "Key": "b0d04bf5-ee5e-4c4f-83c0-7e0408a6874c",
             "Value": {
-                "id": "0416868c-e175-4d83-92dd-3e2b53319f5d",
-                "resourcePath": "scripts\\action8Release\\action8Release.yy",
+                "id": "9a225afa-3549-42ec-8fd6-1229834c15c4",
+                "resourcePath": "scripts\\action6Release\\action6Release.yy",
                 "resourceType": "GMScript"
             }
         },
         {
-            "Key": "b419d9b6-b0c1-4be8-ac06-f621a3c7ea26",
+            "Key": "b5373a1b-d4d4-4b8f-a8bd-a24a44c3c45d",
             "Value": {
-                "id": "3e69ae06-26e6-4d40-bee0-da29f3469c77",
-                "resourcePath": "scripts\\movementUpRelease\\movementUpRelease.yy",
+                "id": "8062999e-725a-4936-8aa0-07bc8b29d7ab",
+                "resourcePath": "scripts\\analogLeftVRelease\\analogLeftVRelease.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b9053ed0-d0df-4446-8598-923532b4431b",
+            "Value": {
+                "id": "f5ba88d2-a7e0-4c6a-bbb8-fbbc603c1fa5",
+                "resourcePath": "scripts\\action1\\action1.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ba65f6f0-0cde-4237-9f24-07cb2e02d07b",
+            "Value": {
+                "id": "65b07a83-32e2-4f0d-a45a-69cb1b9142fe",
+                "resourcePath": "scripts\\movementDown\\movementDown.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "bcd19349-7c21-48ba-b1e7-2873515d04fd",
+            "Value": {
+                "id": "15b12ac6-6a73-404c-b75d-2af1739b51d5",
+                "resourcePath": "scripts\\analogRightHPressed\\analogRightHPressed.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "be228d34-e94f-4faf-a1da-0e77b664d331",
+            "Value": {
+                "id": "e9b1d369-462e-4e95-84c6-41033269710e",
+                "resourcePath": "scripts\\action1Pressed\\action1Pressed.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -559,10 +655,18 @@
             }
         },
         {
-            "Key": "c1aa3408-a413-4a5b-989f-c8f3be655f07",
+            "Key": "c2c70104-551c-41e0-afdb-ebd33d625ebd",
             "Value": {
-                "id": "0fbfcee2-74b6-4bbe-bcb7-05691cb8787a",
-                "resourcePath": "scripts\\gamepadCheckReleased\\gamepadCheckReleased.yy",
+                "id": "43bd7084-7f82-4b91-89e0-55a21c88d3cd",
+                "resourcePath": "scripts\\actionStartPressed\\actionStartPressed.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c566ae72-1155-45dc-88a4-1c9e5ee8b87a",
+            "Value": {
+                "id": "83982fe1-17d8-425d-a44d-84387eae9fe7",
+                "resourcePath": "scripts\\action7\\action7.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -575,18 +679,26 @@
             }
         },
         {
-            "Key": "c9b3f3ad-07d8-4b3d-b1ab-2305146259c3",
+            "Key": "c695ad27-722e-46ef-a4b6-0f395359bcf8",
             "Value": {
-                "id": "a6d7fa6c-1d99-42e4-b378-25ebcb818102",
-                "resourcePath": "scripts\\movementRightRelease\\movementRightRelease.yy",
+                "id": "906c9863-95e5-41a3-822c-c8ccc1fb8ecc",
+                "resourcePath": "scripts\\movementLeft\\movementLeft.yy",
                 "resourceType": "GMScript"
             }
         },
         {
-            "Key": "ca63a599-ee79-4aa6-b9eb-3e1d6e7b33ba",
+            "Key": "c8459317-272d-4507-a0bf-c8d6fdb54d08",
             "Value": {
-                "id": "b53befce-82a3-4032-bb59-ee9e30cf9818",
-                "resourcePath": "scripts\\action3Release\\action3Release.yy",
+                "id": "e6cd6b0a-ab09-4426-a92e-8553c853e940",
+                "resourcePath": "scripts\\controlsInit\\controlsInit.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c8bd7b94-376c-456b-b3b4-fdac6e5a2a94",
+            "Value": {
+                "id": "4edf9699-4865-4443-8a4b-3bb8c430ffea",
+                "resourcePath": "scripts\\action4Pressed\\action4Pressed.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -599,6 +711,14 @@
             }
         },
         {
+            "Key": "ce083d64-18d0-4844-a360-7b5451cce1f0",
+            "Value": {
+                "id": "29cb9db0-90d8-415c-b1f0-eebce292f0ee",
+                "resourcePath": "scripts\\controlsType\\controlsType.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d206f0bb-8580-4ba6-92fe-35dd9a412c0b",
             "Value": {
                 "id": "3ff4db67-fb02-4af3-a065-653683270000",
@@ -607,26 +727,66 @@
             }
         },
         {
-            "Key": "d35e62f2-d880-42ec-90f1-c6a1701aed44",
+            "Key": "d408c5b4-bb36-4718-abb4-489becdd61f2",
             "Value": {
-                "id": "92464f9a-196f-454d-9c1f-a67681c2ecdb",
-                "resourcePath": "scripts\\movementLeft\\movementLeft.yy",
+                "id": "3f54c0d9-464a-4964-87ad-28737dd37e10",
+                "resourcePath": "views\\d408c5b4-bb36-4718-abb4-489becdd61f2.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d4c3bcf6-6689-4054-bb01-3acd585f1be8",
+            "Value": {
+                "id": "b6994d72-48b8-425e-8087-ba334a57cfff",
+                "resourcePath": "views\\d4c3bcf6-6689-4054-bb01-3acd585f1be8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d58be986-bbce-491b-9a7b-67d5c230e26d",
+            "Value": {
+                "id": "993f4dbe-e32f-46cc-9493-2d0327e4845f",
+                "resourcePath": "views\\d58be986-bbce-491b-9a7b-67d5c230e26d.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d70292f9-4b76-4bc6-8bc5-1f69cdde3b72",
+            "Value": {
+                "id": "6020fb67-94d8-44b8-b134-1664342bb225",
+                "resourcePath": "scripts\\actionStartRelease\\actionStartRelease.yy",
                 "resourceType": "GMScript"
             }
         },
         {
-            "Key": "d9419cb4-47cc-4c43-83c2-788325501fc0",
+            "Key": "dcb183dc-2c16-415a-a79e-55b8481f07e3",
             "Value": {
-                "id": "d8758812-b492-49e5-b9c4-9609ec3a3b82",
-                "resourcePath": "scripts\\action2Pressed\\action2Pressed.yy",
+                "id": "e6c41c3b-bba8-469c-8134-8dbf43ece587",
+                "resourcePath": "scripts\\analogLeftVDown\\analogLeftVDown.yy",
                 "resourceType": "GMScript"
             }
         },
         {
-            "Key": "db339412-d47c-41a3-be5b-d8fc87d6a75a",
+            "Key": "dd2612fd-f82e-4042-96af-8b4b35bed465",
             "Value": {
-                "id": "b28fb7f0-310f-4572-9861-78141814a7e0",
-                "resourcePath": "scripts\\controlsSave\\controlsSave.yy",
+                "id": "1558f00f-ce4c-4cf0-bf37-1d590a7442d5",
+                "resourcePath": "scripts\\gamepadButtonName\\gamepadButtonName.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e188a061-759e-4e1f-9f0e-05f0d9a94c43",
+            "Value": {
+                "id": "6eb27b20-7d3d-4345-91f2-b98e726163f8",
+                "resourcePath": "scripts\\gamepadCheckReleased\\gamepadCheckReleased.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e3cc8237-ae3d-4e97-bd4d-72cb9fc6c5e7",
+            "Value": {
+                "id": "5ac5cee1-9b07-41e2-a7f0-8f2e40d67cb8",
+                "resourcePath": "scripts\\action6Pressed\\action6Pressed.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -639,18 +799,42 @@
             }
         },
         {
-            "Key": "eb25ddf0-dd5d-4504-8ba0-85d74d0576f6",
+            "Key": "e794d7f6-301b-4b58-88d7-473f49e050db",
             "Value": {
-                "id": "749eaf70-fb78-46a6-9170-d0da3dec969f",
-                "resourcePath": "scripts\\actionSelectRelease\\actionSelectRelease.yy",
+                "id": "d15812df-5d35-4f46-9848-cee3b9cae63e",
+                "resourcePath": "scripts\\keyPressed\\keyPressed.yy",
                 "resourceType": "GMScript"
             }
         },
         {
-            "Key": "f0db3652-7853-4f6d-937e-fa93c1532fd6",
+            "Key": "e8e4ab16-473d-4d06-9f43-12c818625338",
             "Value": {
-                "id": "067ffa42-d5e3-40e1-8e6c-123c4f1111e8",
-                "resourcePath": "scripts\\controlsFile\\controlsFile.yy",
+                "id": "1dbc5b48-0f98-481f-b241-bc9fc86c61be",
+                "resourcePath": "scripts\\action4\\action4.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e95e1433-7406-4e05-8d2b-46f695bb7ab8",
+            "Value": {
+                "id": "27a56eaa-36c3-4258-809e-b5471f127e2c",
+                "resourcePath": "scripts\\analogLeftVPressed\\analogLeftVPressed.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ecbb99d8-fb5d-4e1d-ad22-1af2e596b0f9",
+            "Value": {
+                "id": "bd0e6d15-f613-40a6-92d3-2e0532d5ca15",
+                "resourcePath": "scripts\\analogRightV\\analogRightV.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ee0ea352-ce53-4afb-be31-a1233814bdbd",
+            "Value": {
+                "id": "1aeb2892-69a2-4b0a-a23d-e07e8a765c70",
+                "resourcePath": "scripts\\action4Release\\action4Release.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -671,10 +855,10 @@
             }
         },
         {
-            "Key": "f612d896-b206-4204-9ef9-e45a29e3fbce",
+            "Key": "f54e460a-7f6d-46fb-a593-e220f265d86a",
             "Value": {
-                "id": "0ed8676b-2b87-49d1-8a07-2dd651b9ac32",
-                "resourcePath": "scripts\\action4Pressed\\action4Pressed.yy",
+                "id": "fd987d6d-6576-450d-b8b9-618130d06375",
+                "resourcePath": "scripts\\movementLeftPressed\\movementLeftPressed.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -703,68 +887,88 @@
             }
         },
         {
-            "Key": "fb90bdef-0a7c-464b-b077-ae728f7611cc",
+            "Key": "fc15b006-70f5-486c-a6b9-937a023a4393",
             "Value": {
-                "id": "efbd0af2-595d-4fe0-a0ef-bf916df1ad9d",
-                "resourcePath": "scripts\\keyCodeName\\keyCodeName.yy",
+                "id": "959eda37-ec5c-457b-866b-a02e3602ced4",
+                "resourcePath": "scripts\\movementDownRelease\\movementDownRelease.yy",
                 "resourceType": "GMScript"
             }
         }
     ],
     "script_order": [
         "f3837545-45da-4e55-872b-bd62c616ce78",
-        "5970ed0c-fd0e-4e76-a57d-22ea4f8cabad",
-        "9e57a8c9-9998-4fc7-8eb0-380d615a0cb1",
-        "943257d8-a4ef-4197-81ab-c378b65c2c83",
-        "19215a04-7f1b-4990-b733-c6390427ad9e",
-        "d9419cb4-47cc-4c43-83c2-788325501fc0",
-        "5da9a8e2-48f7-4305-bff7-deed140fc0a5",
-        "87aff5ad-10c7-4685-9ca2-dd56c71e78be",
-        "8374d030-5cac-46a9-9c36-dba4974f71fd",
-        "ca63a599-ee79-4aa6-b9eb-3e1d6e7b33ba",
-        "a6ebb137-c2ad-47c2-a1ce-72d52bd7ba65",
-        "f612d896-b206-4204-9ef9-e45a29e3fbce",
-        "5ec9d00c-5eda-4f3d-b62f-0427b99d7fd2",
-        "70ee1092-5ffe-4cb4-ab56-911c3af1d9f3",
-        "9f99b45c-446c-4406-8709-123f2e9184bd",
-        "5bc20d82-fee6-4d09-a75f-6a7788bd3694",
-        "59223a49-9b27-4b73-8015-324e21ef86bd",
-        "18e2d4a1-ae53-4fb8-a55e-d2277a75d314",
-        "5a010711-4ac1-423b-9be0-3aa5ccb833cb",
-        "665ba186-e20e-4b0f-81f8-d6b01c9789d0",
-        "2d5551f3-576e-4b09-be6e-812cdcc99c97",
-        "172cbc18-7ca2-4dae-b845-518c13659504",
-        "6f284f41-5932-4b05-857b-14971f98cc44",
-        "360dd66a-ad08-477e-9dc7-e3d440daf476",
-        "aee54ed9-8443-4fb2-b9b8-9c6b6ac37b6c",
-        "403d70ed-973e-4660-9a0a-c1ceecfb5402",
-        "236be597-4cc9-4452-b043-ca1e481c1639",
-        "eb25ddf0-dd5d-4504-8ba0-85d74d0576f6",
-        "28cebb69-d8ae-4b37-8e29-68f6f933c0b3",
-        "6d1d555a-8154-4da6-afcc-91ef1b812e1d",
-        "560f2bcd-fb31-486d-b806-913bc76d3bfa",
-        "512bd972-947e-4016-a1b4-8d67ad2e3c5f",
-        "79d8db07-427a-4fbd-b241-6667ab268e92",
-        "2b20ba69-3f5d-4360-9898-07763a947e12",
-        "c1aa3408-a413-4a5b-989f-c8f3be655f07",
-        "fb90bdef-0a7c-464b-b077-ae728f7611cc",
-        "5fd09a12-0d04-49f8-a64e-81d95558efce",
-        "a76c656e-bd9a-41bf-836d-78bbad2b30ef",
-        "8962619e-c42c-4c68-89a6-b129a29717c7",
-        "99f6ca63-a7f5-495a-bebc-58e34f536fc1",
-        "d35e62f2-d880-42ec-90f1-c6a1701aed44",
-        "94892a32-ebc2-48cb-aa11-2812f6ad02a3",
-        "280bac32-b6c2-40c8-8c01-f1e28c117a05",
-        "0139ea8c-d6fb-43de-8151-b974e4d32af9",
-        "ac5d350f-0f74-4608-9cf7-c9347e622f04",
-        "c9b3f3ad-07d8-4b3d-b1ab-2305146259c3",
-        "733be3fa-f6f7-40a5-809d-06c765d8ab5a",
-        "63450aa3-c884-4fbd-a679-1a75d3ca7f84",
-        "b419d9b6-b0c1-4be8-ac06-f621a3c7ea26",
-        "f0db3652-7853-4f6d-937e-fa93c1532fd6",
-        "36fef280-4b66-4648-bbc7-c73e1c78c7d8",
-        "db339412-d47c-41a3-be5b-d8fc87d6a75a",
-        "1893163d-2e0a-4416-bcb4-54e1225a7add",
+        "b9053ed0-d0df-4446-8598-923532b4431b",
+        "be228d34-e94f-4faf-a1da-0e77b664d331",
+        "63a0210c-0d94-49be-bc3b-7621f0788b19",
+        "3434446c-8ab2-4346-b086-25ebadbc9cab",
+        "198a3305-6a9f-45e4-9d27-32cd8a5c2d81",
+        "8ffcbf80-6ff2-44a2-9099-27f27bf53f69",
+        "4c86c2e7-8116-48f0-bde6-870f3530ec06",
+        "425f8aa3-2e96-4c45-b6d4-dc8e85bcf9f8",
+        "65e3868f-1c62-4dcf-bcf0-7322e78214e7",
+        "e8e4ab16-473d-4d06-9f43-12c818625338",
+        "c8bd7b94-376c-456b-b3b4-fdac6e5a2a94",
+        "ee0ea352-ce53-4afb-be31-a1233814bdbd",
+        "4602174c-7ab0-417e-a4a1-05efca15e073",
+        "52b1d1ca-892a-420f-afd2-ee8b3325d9d6",
+        "aba3592d-1be4-4b57-8021-40db1df59762",
+        "9f25e600-d3e2-4e14-9f5d-ffd17b1634f8",
+        "e3cc8237-ae3d-4e97-bd4d-72cb9fc6c5e7",
+        "b0d04bf5-ee5e-4c4f-83c0-7e0408a6874c",
+        "c566ae72-1155-45dc-88a4-1c9e5ee8b87a",
+        "aa4f13be-c45c-400f-8f1d-6d40e14b2284",
+        "02c3ae1d-475f-44fc-8b94-6f36ede01eba",
+        "0148b304-4f83-4e78-8d35-a1353a38d940",
+        "5a71db95-b258-469c-8daa-89bf4e50b447",
+        "4b959ac4-298b-46b1-ad81-fb6760c8c018",
+        "580bc0bd-e934-4095-9812-b0400b08b237",
+        "9b67de86-42b6-4770-8157-5331fd2faf24",
+        "902a3c68-7df7-4a77-bf51-e2ea1c258ef5",
+        "6fe27dfd-862f-4d0f-a052-9581d5b20f27",
+        "c2c70104-551c-41e0-afdb-ebd33d625ebd",
+        "d70292f9-4b76-4bc6-8bc5-1f69cdde3b72",
+        "28c11b79-a126-419d-a509-e0d3c3a1b390",
+        "9c482a38-d503-46ca-9a7f-d8d5d3889197",
+        "76402792-5d20-40b6-937d-2c8a9f671e9e",
+        "07acb509-a8ad-4799-8927-820976e61988",
+        "5aef24f9-a939-4ffc-b5ad-a9abe23b5f23",
+        "dcb183dc-2c16-415a-a79e-55b8481f07e3",
+        "e95e1433-7406-4e05-8d2b-46f695bb7ab8",
+        "b5373a1b-d4d4-4b8f-a8bd-a24a44c3c45d",
+        "22e30067-3212-4911-9ecf-750aa6e94f55",
+        "91317c91-bdc5-40dc-aee8-d927d957361e",
+        "bcd19349-7c21-48ba-b1e7-2873515d04fd",
+        "70a4388d-7a05-4aeb-8042-b879675fa5ae",
+        "ecbb99d8-fb5d-4e1d-ad22-1af2e596b0f9",
+        "3a7626ae-d6a9-4e33-9d25-5411f0246765",
+        "76760f22-a1b1-467f-9254-db494d756c35",
+        "95da9388-793a-4361-9493-2499b3e33acb",
+        "03d04485-ee98-420d-8709-7138f1fa54d6",
+        "0c836369-6eb4-4174-98d3-9bc45fa2343a",
+        "dd2612fd-f82e-4042-96af-8b4b35bed465",
+        "0a788897-bed4-4a0e-bdb8-398f76e2140d",
+        "725f67d4-e162-480f-8fd1-deefdbd62d61",
+        "e188a061-759e-4e1f-9f0e-05f0d9a94c43",
+        "a5807c91-e15a-4ff5-a83e-432683a5f11a",
+        "e794d7f6-301b-4b58-88d7-473f49e050db",
+        "ba65f6f0-0cde-4237-9f24-07cb2e02d07b",
+        "0c582543-93d4-484e-a53a-a6765b5a0633",
+        "fc15b006-70f5-486c-a6b9-937a023a4393",
+        "c695ad27-722e-46ef-a4b6-0f395359bcf8",
+        "f54e460a-7f6d-46fb-a593-e220f265d86a",
+        "0f0d8343-35d1-446e-be81-7f3a85a5723f",
+        "67345fdb-4889-4b93-a7d6-ffb46dde3962",
+        "a1dd0852-9689-467c-9714-b766dc596e78",
+        "875bf092-eef8-4495-8120-2490d2f5895f",
+        "83b76332-3c15-4a72-94af-0e882dc2d6a1",
+        "47851df2-2d96-4305-bb22-4ab30114dff5",
+        "273f274e-1359-417a-84aa-713377a2532f",
+        "67f007b7-6bde-4be1-b132-83e9796d36f6",
+        "c8459317-272d-4507-a0bf-c8d6fdb54d08",
+        "5e458366-b33c-4fa1-9d26-552ef52ec9fb",
+        "775c0452-2bfb-4f2e-b963-0ea5b8094254",
+        "ce083d64-18d0-4844-a360-7b5451cce1f0",
+        "1054509d-c88f-46e9-bb4a-2dbcced22543",
         "55d4c827-cf82-40ee-b890-93e11b1da29a"
     ],
     "tutorial": ""

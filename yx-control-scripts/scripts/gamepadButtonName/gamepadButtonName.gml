@@ -1,13 +1,7 @@
-/// @description  gamepadButtonName(button)
-/// @function  gamepadButtonName
-/// @param button
+/// @description Returns the name of the gamepad button, stick or axis
+/// @function gamepadButtonName
+/// @param {real} button The button, axis or stick ID
 
-/**
- * Returns the name of the gamepad's button, by its code.
- * 
- * @param {int} button 
- *      Code for the button name desired 
- */
 switch (argument[0]) {
     case gp_padu:
         return "D-Pad Up";
@@ -73,4 +67,3 @@ switch (argument[0]) {
         return "None";
         break;
 }
-

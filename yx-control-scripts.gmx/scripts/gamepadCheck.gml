@@ -7,7 +7,7 @@
  *      Optional, gamepad slot to test, from 0 (P1) to 3 (P4), default: 0
  */
 
-// Check slot (default is always 0
+// Check slot (default is always 0)
 var slot = 0;
 if (
     argument_count == 1 

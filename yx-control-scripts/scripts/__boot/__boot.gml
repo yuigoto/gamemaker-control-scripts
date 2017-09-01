@@ -8,5 +8,4 @@
  */
 
 // Initialize Control File + Globals
-controlsInit();
-
+controlsInit(true);

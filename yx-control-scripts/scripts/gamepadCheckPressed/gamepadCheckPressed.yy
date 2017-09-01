@@ -1,5 +1,5 @@
 {
-    "id": "2b20ba69-3f5d-4360-9898-07763a947e12",
+    "id": "725f67d4-e162-480f-8fd1-deefdbd62d61",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "gamepadCheckPressed",

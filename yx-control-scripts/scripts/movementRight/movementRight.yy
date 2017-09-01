@@ -1,5 +1,5 @@
 {
-    "id": "0139ea8c-d6fb-43de-8151-b974e4d32af9",
+    "id": "67345fdb-4889-4b93-a7d6-ffb46dde3962",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "movementRight",

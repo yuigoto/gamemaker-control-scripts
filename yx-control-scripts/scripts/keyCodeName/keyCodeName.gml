@@ -1,14 +1,6 @@
-/// @description  keyCodeName(code)
-/// @function  keyCodeName
-/// @param code
-
-/**
- * Returns the name of the key represented by the code in the 
- * keyboard.
- * 
- * @param {int} code 
- *      Code for the keyboard's key desired 
- */
+/// @description Returns the name of the keyboard key pressed
+/// @function keyCodeName
+/// @param {real} code The code for the keyboard key
 
 // Check global key values
 switch ( argument[0] ) {
@@ -185,4 +177,3 @@ for ( var i = ord( "A" ); i <= ord( "Z" ); i++ ) {
 
 // Return false, if anything else fails
 return false;
-

@@ -1,56 +1,54 @@
-/// @description  controlsStateCheck(slot, state, key, button)
-/// @function  controlsStateCheck
-/// @param slot
-/// @param  state
-/// @param  key
-/// @param  button
+/// @description Checks the current state for a key or button 
+/// @function controlsStateCheck 
+/// @param {real} slot Slot to check 
+/// @param {real} state One of the valid states (0: down, 1: pressed, 2: release)
+/// @param {real} key Keyboard key ID
+/// @param {real} button Gamepad button ID
 
-/**
- * Checks button states for press/pressed/release. Returns boolean.
- *
- * Available states are:
- * 0 - Press;
- * 1 - Pressed;
- * 2 - Release;
- *
- * @param {int} slot 
- *      Slot to check
- * @param {int} state 
- *      State to check
- * @param {int} key 
- *      Key code to test for state
- * @param {int} button 
- *      Button code to test for state
- */
+var slot    = argument[0];
+var state   = argument[1];
+var key     = argument[2];
+var button  = argument[3];
 
-// Humanize arguments
-var slot = argument[0];
-var state = argument[1];
-var key = argument[2];
-var btn = argument[3];
-
-// Check status and return
-switch(state) {
-    // Just pressed
+// Check state and return the appropriate value
+switch (state) {
+    // Pressed 
     case 1:
-        if (gamepad_button_check_pressed(slot, btn)) {
+        if (gamepad_button_check_pressed(slot, button)) {
+            controlsType(slot, 1);
             return true;
         }
-        return keyboard_check_pressed(key);
+        
+        if (keyboard_check_pressed(key)) {
+            controlsType(slot, 0);
+            return true;
+        }
         break;
-    // Released
+    // Released 
     case 2:
-        if (gamepad_button_check_released(slot, btn)) {
+        if (gamepad_button_check_released(slot, button)) {
+            controlsType(slot, 1);
             return true;
         }
-        return keyboard_check_released(key);
+        
+        if (keyboard_check_released(key)) {
+            controlsType(slot, 0);
+            return true;
+        }
         break;
-    // Pressed/down
-    default:
-        if (gamepad_button_check(slot, btn)) {
+    // Default (Down/Press)
+    default: 
+        if (gamepad_button_check(slot, button)) {
+            controlsType(slot, 1);
             return true;
         }
-        return keyboard_check(key);
+        
+        if (keyboard_check(key)) {
+            controlsType(slot, 0);
+            return true;
+        }
         break;
 }
 
+// False fallback
+return false;

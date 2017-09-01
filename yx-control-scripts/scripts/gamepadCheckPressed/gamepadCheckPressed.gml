@@ -1,15 +1,8 @@
-/// @description  gamepadCheckPressed(slot)
-/// @function  gamepadCheckPressed
-/// @param slot
+/// @description Checks if any key was just pressed on the gamepad
+/// @function gamepadCheck
+/// @param {real} slot Gamepad slot to check
 
-/**
- * Returns the button code for the one that was just pressed on the gamepad.
- * 
- * @param {int} slot 
- *      Optional, gamepad slot to test, from 0 (P1) to 3 (P4), default: 0
- */
-
-// Check slot (default is always 0
+// Check slot (default is always 0)
 var slot = 0;
 if (
     argument_count == 1 
@@ -27,4 +20,3 @@ for (var i = gp_face1; i < gp_axisrv; i++) {
 
 // False, if nothing was pressed
 return false;
-

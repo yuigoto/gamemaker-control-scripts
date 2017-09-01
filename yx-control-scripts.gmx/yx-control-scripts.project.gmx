@@ -45,6 +45,26 @@
         <script>scripts\actionStartPressed.gml</script>
         <script>scripts\actionStartRelease.gml</script>
       </scripts>
+      <scripts name="Analog">
+        <script>scripts\analogLeftH.gml</script>
+        <script>scripts\analogLeftHDown.gml</script>
+        <script>scripts\analogLeftHPressed.gml</script>
+        <script>scripts\analogLeftHRelease.gml</script>
+        <script>scripts\analogLeftV.gml</script>
+        <script>scripts\analogLeftVDown.gml</script>
+        <script>scripts\analogLeftVPressed.gml</script>
+        <script>scripts\analogLeftVRelease.gml</script>
+        <script>scripts\analogRightH.gml</script>
+        <script>scripts\analogRightHDown.gml</script>
+        <script>scripts\analogRightHPressed.gml</script>
+        <script>scripts\analogRightHRelease.gml</script>
+        <script>scripts\analogRightV.gml</script>
+        <script>scripts\analogRightVDown.gml</script>
+        <script>scripts\analogRightVPressed.gml</script>
+        <script>scripts\analogRightVRelease.gml</script>
+        <script>scripts\controlsAnalogObjectInit.gml</script>
+        <script>scripts\controlsAnalogObjectStep.gml</script>
+      </scripts>
       <scripts name="Gamepad">
         <script>scripts\gamepadButtonName.gml</script>
         <script>scripts\gamepadCheck.gml</script>
@@ -71,12 +91,17 @@
       </scripts>
       <script>scripts\controlsFile.gml</script>
       <script>scripts\controlsInit.gml</script>
+      <script>scripts\controlsType.gml</script>
+      <script>scripts\controlsWipe.gml</script>
       <script>scripts\controlsSave.gml</script>
       <script>scripts\controlsStateCheck.gml</script>
     </scripts>
     <script>scripts\approach.gml</script>
   </scripts>
   <objects name="objects">
+    <objects name="Controls">
+      <object>objects\obj_controlsAnalog</object>
+    </objects>
     <object>objects\obj_testPlayer</object>
   </objects>
   <rooms name="rooms">

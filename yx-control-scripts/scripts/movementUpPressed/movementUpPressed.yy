@@ -1,5 +1,5 @@
 {
-    "id": "63450aa3-c884-4fbd-a679-1a75d3ca7f84",
+    "id": "47851df2-2d96-4305-bb22-4ab30114dff5",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "movementUpPressed",
