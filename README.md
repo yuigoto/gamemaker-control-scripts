@@ -1,7 +1,7 @@
-YX GAMEMAKER CONTROL SCRIPTS
-============================
+YX : GameMaker : Control Scripts
+================================
 
-This repo contains some scripts I use to handle controller bindings on some of my games. They were hugely inspired by how **[Derek Yu][0]** wrote control handling scripts for his game **[Spelunky Classic][1]**.
+> This repo contains some scripts I use to handle controller bindings on some of my games. They were hugely inspired by how **[Derek Yu][0]** wrote control handling scripts for his game **[Spelunky Classic][1]**.
 
 I kinda did some clean-room engineering to build these control scripts here, and ended up adding more stuff here and there, but it basically follows the same principles: _each button has 3 states and, for each state we have a script (down, pressed and released)_.
 
@@ -17,13 +17,9 @@ Use it on your project, game jam or whatever! No need to credit (though apprecia
 
 **P.s.:** I'm also using the **`approach`** script from _[Matt Thorson's Grandma Engine][2]_ to test the movement controls.
 
------
-
-## Requirements
+## Dependencies
 
 There are two projects in this repository, one for **GameMaker: Studio** (`yx-control-scripts.gmx`) and another for **GameMaker Studio 2** (`yx-control-scripts`), so you'll need to have one of these editors installed in your machine.
-
------
 
 ## How to Use
 
@@ -31,13 +27,9 @@ Just fire `controlsInit()` at the very beginning of your game to bootstrap all c
 
 There are more things I'm working on for this, like a control mapper (which is kinda "built", but not good enough). Since it saves the controls on a `INI` file, you should be able to map them, as there's also scripts to help you output which key or button the user pressed. :wink: 
 
------
+## Authors
 
-## Author
-
-- **Fabio Y. Goto** (_[@go_go_goto][3]_): web developer, game developer - São Paulo/BR;
-
------
+- **Fabio Y. Goto** ([lab@yuiti.com.br][mailto01]);
 
 ## Thanks
 
@@ -45,16 +37,21 @@ There are more things I'm working on for this, like a control mapper (which is k
 - **Robert Rüdiger** (_[@ruerobgames][4]_), for help in testing and improving this project; 
 - **Derek Yu**, for making _Spelunky_, since without it I'd never think about this solution before;
 
------
-
 ## License
 
 The code in this repository is licensed under the `MIT License`. Check the `LICENSE.md` file for details on it.
 
-[\\]: -----------------------------------------------------------------
+-----
 
+_© 2017 Fabio Y. Goto_
+
+[\\]: ======================================================================
+
+[mailto01]: mailto:lab@yuiti.com.br
 [0]: https://www.derekyu.com/
 [1]: http://spelunkyworld.com/original.html
 [2]: https://forums.tigsource.com/index.php?topic=5790.0
 [3]: https://twitter.com/go_go_goto
 [4]: https://twitter.com/ruerobgames
+
+[\\]: =====================================================================
