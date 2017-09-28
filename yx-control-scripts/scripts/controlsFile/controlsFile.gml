@@ -60,14 +60,14 @@ for (var i = 1; i <= 4; i++) {
     ini_write_real(section, "pad_rt", gp_padr);
     ini_write_real(section, "pad_start", gp_start);
     ini_write_real(section, "pad_select", gp_select);
-    ini_write_real(section, "pad_action1", gp_shoulderrb);
-    ini_write_real(section, "pad_action2", gp_shoulderlb);
-    ini_write_real(section, "pad_action3", gp_face1);
-    ini_write_real(section, "pad_action4", gp_face2);
+    ini_write_real(section, "pad_action1", gp_face1);
+    ini_write_real(section, "pad_action2", gp_face2);
+    ini_write_real(section, "pad_action3", gp_face3);
+    ini_write_real(section, "pad_action4", gp_face4);
     ini_write_real(section, "pad_action5", gp_shoulderl);
-    ini_write_real(section, "pad_action6", gp_face3);
+    ini_write_real(section, "pad_action6", gp_shoulderlb);
     ini_write_real(section, "pad_action7", gp_shoulderr);
-    ini_write_real(section, "pad_action8", gp_face4);
+    ini_write_real(section, "pad_action8", gp_shoulderrb);
     
     // Analog controls
     // ------------------------------------------------------------------

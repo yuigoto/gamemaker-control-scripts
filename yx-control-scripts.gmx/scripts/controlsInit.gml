@@ -66,14 +66,14 @@ global.P1_PAD_LT        = ini_read_real(section, "pad_lt", gp_padl);
 global.P1_PAD_RT        = ini_read_real(section, "pad_rt", gp_padr);
 global.P1_PAD_START     = ini_read_real(section, "pad_start", gp_start);
 global.P1_PAD_SELECT    = ini_read_real(section, "pad_select", gp_select);
-global.P1_PAD_ACTION1   = ini_read_real(section, "pad_action1", gp_shoulderrb);
-global.P1_PAD_ACTION2   = ini_read_real(section, "pad_action2", gp_shoulderlb);
-global.P1_PAD_ACTION3   = ini_read_real(section, "pad_action3", gp_face1);
-global.P1_PAD_ACTION4   = ini_read_real(section, "pad_action4", gp_face2);
+global.P1_PAD_ACTION1   = ini_read_real(section, "pad_action1", gp_face1);
+global.P1_PAD_ACTION2   = ini_read_real(section, "pad_action2", gp_face2);
+global.P1_PAD_ACTION3   = ini_read_real(section, "pad_action3", gp_face3);
+global.P1_PAD_ACTION4   = ini_read_real(section, "pad_action4", gp_face4);
 global.P1_PAD_ACTION5   = ini_read_real(section, "pad_action5", gp_shoulderl);
-global.P1_PAD_ACTION6   = ini_read_real(section, "pad_action6", gp_face3);
+global.P1_PAD_ACTION6   = ini_read_real(section, "pad_action6", gp_shoulderlb);
 global.P1_PAD_ACTION7   = ini_read_real(section, "pad_action7", gp_shoulderr);
-global.P1_PAD_ACTION8   = ini_read_real(section, "pad_action8", gp_face4);
+global.P1_PAD_ACTION8   = ini_read_real(section, "pad_action8", gp_shoulderrb);
 
 // Gamepad analog
 global.P1_ANALOG_LH     = ini_read_real(section, "analog_lh", gp_axislh);
