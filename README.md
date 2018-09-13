@@ -19,13 +19,13 @@ Use it on your project, game jam or whatever! No need to credit (though apprecia
 
 ## Dependencies
 
-There are two projects in this repository, one for **GameMaker: Studio** (`yx-control-scripts.gmx`) and another for **GameMaker Studio 2** (`yx-control-scripts`), so you'll need to have one of these editors installed in your machine.
+There are two projects in this repository, one for **GameMaker: Studio** (`gms1-control-scripts.gmx`) and another for **GameMaker Studio 2** (`gms2-control-scripts`), so you'll need to have one of these editors installed in your machine.
 
 ## How to Use
 
 Just fire `controlsInit()` at the very beginning of your game to bootstrap all control globals, then use each button's specific script to check states.
 
-There are more things I'm working on for this, like a control mapper (which is kinda "built", but not good enough). Since it saves the controls on a `INI` file, you should be able to map them, as there's also scripts to help you output which key or button the user pressed. :wink: 
+There are more things I'm working on for this, like a control mapper (which is kinda "built", but not good enough). Since it saves the controls on a `INI` file, you should be able to map them, as there's also scripts to help you output which key or button the user pressed. :wink:
 
 ## Authors
 
@@ -34,7 +34,7 @@ There are more things I'm working on for this, like a control mapper (which is k
 ## Thanks
 
 - First, and most important, for my fiancée, **Glauce**, because of her support, and also for testing these scripts;
-- **Robert Rüdiger** (_[@ruerobgames][4]_), for help in testing and improving this project; 
+- **Robert Rüdiger** (_[@ruerobgames][4]_), for help in testing and improving this project;
 - **Derek Yu**, for making _Spelunky_, since without it I'd never think about this solution before;
 
 ## License
@@ -43,7 +43,7 @@ The code in this repository is licensed under the `MIT License`. Check the `LICE
 
 -----
 
-_© 2017 Fabio Y. Goto_
+_© 2017~2018 Fabio Y. Goto_
 
 [\\]: ======================================================================
 
