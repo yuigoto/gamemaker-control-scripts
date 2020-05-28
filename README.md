@@ -1,5 +1,4 @@
-YX : GameMaker : Control Scripts
-================================
+# GameMaker Control Scripts
 
 > This repo contains some scripts I use to handle controller bindings on some of my games. They were hugely inspired by how **[Derek Yu][0]** wrote control handling scripts for his game **[Spelunky Classic][1]**.
 
@@ -17,41 +16,40 @@ Use it on your project, game jam or whatever! No need to credit (though apprecia
 
 **P.s.:** I'm also using the **`approach`** script from _[Matt Thorson's Grandma Engine][2]_ to test the movement controls.
 
+----------------------------------------------------------------------
+
 ## Dependencies
 
 There are two projects in this repository, one for **GameMaker: Studio** (`gms1-control-scripts.gmx`) and another for **GameMaker Studio 2** (`gms2-control-scripts`), so you'll need to have one of these editors installed in your machine.
 
-## How to Use
+----------------------------------------------------------------------
+
+## How To
 
 Just fire `controlsInit()` at the very beginning of your game to bootstrap all control globals, then use each button's specific script to check states.
 
 There are more things I'm working on for this, like a control mapper (which is kinda "built", but not good enough). Since it saves the controls on a `INI` file, you should be able to map them, as there's also scripts to help you output which key or button the user pressed. :wink:
 
+----------------------------------------------------------------------
+
 ## Authors
 
-- **Fabio Y. Goto** ([lab@yuiti.com.br][mailto01]);
+See `AUTHORS.md` for more information.
+
+----------------------------------------------------------------------
 
 ## Thanks
 
-- First, and most important, for my fiancée, **Glauce**, because of her support, and also for testing these scripts;
 - **Robert Rüdiger** (_[@ruerobgames][4]_), for help in testing and improving this project;
 - **Derek Yu**, for making _Spelunky_, since without it I'd never think about this solution before;
 
-## License
+----------------------------------------------------------------------
 
-The code in this repository is licensed under the `MIT License`. Check the `LICENSE.md` file for details on it.
+_©2020 Fabio Y. Goto_
 
------
+[>]: -----------------------------------------------------------------
 
-_© 2017~2018 Fabio Y. Goto_
-
-[\\]: ======================================================================
-
-[mailto01]: mailto:lab@yuiti.com.br
 [0]: https://www.derekyu.com/
 [1]: http://spelunkyworld.com/original.html
 [2]: https://forums.tigsource.com/index.php?topic=5790.0
-[3]: https://twitter.com/go_go_goto
 [4]: https://twitter.com/ruerobgames
-
-[\\]: =====================================================================
